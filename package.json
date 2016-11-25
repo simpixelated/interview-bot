@@ -1,0 +1,38 @@
+{
+  "name": "interview-bot",
+  "version": "0.0.1",
+  "description": "Chatbot for Front-End Developer interviews",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simpixelated/interview-bot.git"
+  },
+  "keywords": [
+    "chatbot",
+    "node",
+    "slackbot",
+    "slack",
+    "howdy",
+    "botkit",
+    "api.ai",
+    "ai",
+    "artificial",
+    "intelligence",
+    "nlp",
+    "natural",
+    "language",
+    "processing"
+  ],
+  "author": "Jordan Kohl <kohl.jordan@gmail.com> (https://github.com/simpixelated)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/simpixelated/interview-bot/issues"
+  },
+  "homepage": "https://github.com/simpixelated/interview-bot#readme",
+  "dependencies": {
+    "botkit": "0.4.2"
+  }
+}
