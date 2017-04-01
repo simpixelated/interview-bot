@@ -34,8 +34,8 @@
   "homepage": "https://github.com/simpixelated/interview-bot#readme",
   "dependencies": {
     "api-ai-botkit": "^1.0.3",
-    "botkit": "0.4.2",
-    "botkit-middleware-apiai": "0.0.3",
+    "botkit": "^0.5.2",
+    "botkit-middleware-apiai": "^0.1.1",
     "botkit-middleware-witai": "git+https://github.com/simpixelated/botkit-middleware-witai.git"
   }
 }
