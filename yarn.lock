@@ -226,10 +226,6 @@ api-ai-botkit@^1.0.3:
     html-entities "^1.2.0"
     uuid "^3.0.1"
 
-apiai@^2.0.5:
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/apiai/-/apiai-2.0.7.tgz#bd87d89cf5cfc7dab1bf9e1181aee8978e780897"
-
 apiai@^3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/apiai/-/apiai-3.0.3.tgz#a2a019b538a776b65c35609e8f4290fa5e4d2832"
@@ -390,19 +386,6 @@ botbuilder@^3.2.3:
     rsa-pem-from-mod-exp "^0.8.4"
     sprintf-js "^1.0.3"
     url-join "^1.1.0"
-
-botkit-middleware-apiai@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/botkit-middleware-apiai/-/botkit-middleware-apiai-0.1.1.tgz#c61afe7d826c8448faf5c83d2853446c9559ace6"
-  dependencies:
-    apiai "^2.0.5"
-    node-uuid "^1.4.7"
-
-"botkit-middleware-witai@git+https://github.com/simpixelated/botkit-middleware-witai.git":
-  version "1.0.0"
-  resolved "git+https://github.com/simpixelated/botkit-middleware-witai.git#f72e11de59e727182efe1fff8242c944efc7200f"
-  dependencies:
-    node-wit "^3.3.2"
 
 botkit-studio-sdk@^1.0.0:
   version "1.0.2"
@@ -741,12 +724,6 @@ encodeurl@~1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/encodeurl/-/encodeurl-1.0.1.tgz#79e3d58655346909fe6f0f45a5de68103b294d20"
 
-encoding@^0.1.11:
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/encoding/-/encoding-0.1.12.tgz#538b66f3ee62cd1ab51ec323829d1f9480c74beb"
-  dependencies:
-    iconv-lite "~0.4.13"
-
 envify@^3.4.0:
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/envify/-/envify-3.4.1.tgz#d7122329e8df1688ba771b12501917c9ce5cbce8"
@@ -995,7 +972,7 @@ https-proxy-agent@^1.0.0:
     debug "2"
     extend "3"
 
-iconv-lite@0.4.15, iconv-lite@^0.4.5, iconv-lite@~0.4.13:
+iconv-lite@0.4.15, iconv-lite@^0.4.5:
   version "0.4.15"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.15.tgz#fe265a218ac6a57cfe854927e9d04c19825eddeb"
 
@@ -1058,10 +1035,6 @@ is-my-json-valid@^2.12.4:
 is-property@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/is-property/-/is-property-1.0.2.tgz#57fe1c4e48474edd65b09911f26b1cd4095dda84"
-
-is-stream@^1.0.1:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/is-stream/-/is-stream-1.1.0.tgz#12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44"
 
 is-typedarray@~1.0.0:
   version "1.0.0"
@@ -1306,23 +1279,9 @@ negotiator@0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
 
-node-fetch@^1.5.1:
-  version "1.6.3"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-1.6.3.tgz#dc234edd6489982d58e8f0db4f695029abcd8c04"
-  dependencies:
-    encoding "^0.1.11"
-    is-stream "^1.0.1"
-
-node-uuid@^1.4.7, node-uuid@~1.4.3, node-uuid@~1.4.7:
+node-uuid@~1.4.3, node-uuid@~1.4.7:
   version "1.4.8"
   resolved "https://registry.yarnpkg.com/node-uuid/-/node-uuid-1.4.8.tgz#b040eb0923968afabf8d32fb1f17f1167fdab907"
-
-node-wit@^3.3.2:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/node-wit/-/node-wit-3.3.2.tgz#9902608f2c2a3419cdbbb0389b4fc03a616616a5"
-  dependencies:
-    node-fetch "^1.5.1"
-    node-uuid "^1.4.7"
 
 number-is-nan@^1.0.0:
   version "1.0.1"

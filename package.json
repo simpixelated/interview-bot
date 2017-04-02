@@ -4,7 +4,8 @@
   "description": "Chatbot for Front-End Developer interviews",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -34,8 +35,6 @@
   "homepage": "https://github.com/simpixelated/interview-bot#readme",
   "dependencies": {
     "api-ai-botkit": "^1.0.3",
-    "botkit": "^0.5.2",
-    "botkit-middleware-apiai": "^0.1.1",
-    "botkit-middleware-witai": "git+https://github.com/simpixelated/botkit-middleware-witai.git"
+    "botkit": "^0.5.2"
   }
 }
